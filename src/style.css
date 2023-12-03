@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;                    
+
+.wrapper {
+    display: flex;
+    gap: 10px;
+
+    & > .box {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+    }
+}

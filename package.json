@@ -1,0 +1,59 @@
+{
+  "name": "demo",
+  "version": "0.0.1",
+  "description": "demo project",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Het Darji",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.23.3",
+    "autoprefixer": "^10.4.16",
+    "babel": "^6.23.0",
+    "babel-loader": "^9.1.3",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^6.8.1",
+    "cssnano": "^6.0.1",
+    "dotenv-webpack": "^8.0.1",
+    "eslint": "^8.53.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss": "^8.4.31",
+    "postcss-loader": "^7.3.3",
+    "postcss-preset-env": "^9.3.0",
+    "preset-react": "^1.0.0",
+    "prettier": "3.0.3",
+    "style-loader": "^3.3.3",
+    "tailwindcss": "^3.3.5",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "browserlists": [
+    "last 4 version",
+    "> 1%",
+    "not dead"
+  ],
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
